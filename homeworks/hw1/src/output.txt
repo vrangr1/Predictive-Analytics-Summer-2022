@@ -1,0 +1,258 @@
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C4/article02.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C4/article04.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C4/article05.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C4/article01.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C4/article06.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C4/article07.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C4/article03.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C4/article08.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C1/article02.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C1/article04.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C1/article05.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C1/article01.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C1/article06.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C1/article07.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C1/article03.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C1/article08.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C7/article02.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C7/article04.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C7/article05.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C7/article01.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C7/article06.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C7/article07.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C7/article03.txt
+fileName: /home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C7/article08.txt
+
+Folder Printing Beginning:
+
+
+Document print begins:
+
+
+hoof mouth contaminate areas declare ; pa blame week 10 site hoof mouth disease break locate israel negev_galilee
+agriculture_ministry_'s_veterinary_service declare negev_galilee contaminate area
+time disease break negev 1989
+diseased herd locate bedouin village laghiayh_rahat_qusayfah_moshav_tidhar
+galilee focus disease arab village sha'ab_kafr_manda tamra yirka moshavim dishon_dalton
+sell buy cattle area ban transport allow special approval
+farmer instruct quarantine sanitation measure prevent vehicle location move shed barn
+prof. arnon_shimshoni head veterinary_service disease spread dairy farm fear
+palestinian_authority_pa establish rise hoof mouth case animal disease due fact cattle sheep smuggle west_bank -- area hebron al zahiriyah_bedouin village northern negev_samaria minority village western galilee
+prof. shimshoni add unsupervised slaughter animal practice minority sector create danger spread disease acinococcus transliterate -- dangerous cattle disease transfer human dog
+disease break poor hygienic condition illegal slaughter
+resident village yirka die contracting disease
+shimshoni complain detailed plan office prepare combate smuggling animal base evaluation impact pa israeli farm partly approve approve part implement
+
+
+Document Print Ends
+
+
+
+Document print begins:
+
+
+successful campaign hoof mouth disease dr. dari_ulaywi president iraqi_veterinary_union affirm free vaccination campaign agriculture_ministry personnel carry hoof mouth disease achieve tangible progress control disease claim animal
+follow work agriculture_minister dr. abd_al_ilah_hamid facility remove obstacle face veterinary clinic country contribute success campaign removal danger cause death large number sheep goat cow buffalo
+recall main epidemic inspection team action 1996 destroy factory produce vaccine disease
+
+
+Document Print Ends
+
+
+
+Document print begins:
+
+
+rok reports dprk face hoof mouth disease russian news agency itartass report pyongyang monday north_korea face large scale foot mouth disease outbreak
+report meat market capital close foreign mission issue warning prepare meat
+add source disease country 's border china chinese farmer dump dead diseased carcass yalu tumen river
+
+
+Document Print Ends
+
+
+
+Document print begins:
+
+
+hoof mouth disease contagion concern hoof mouth disease communicable veterinary disease report greece
+state_veterinary_health_inspection_service warn return home greece visit norwegian farm day return
+disease report albania_turkey_macedonia
+disease spread direct contact animal spread human
+strict restriction impose animal animal product infect herd destroy
+outbreak disease norway occur ostfold vestfold 1952
+
+
+Document Print Ends
+
+
+
+Document print begins:
+
+
+european parliament_agriculture_commission president hoof mouth crisis strasbourg want cultivate cynicism worst evil hoof mouth disease crisis occur moment : mad cow disease force depth reform common agricultural policy cap friedrich_wilhelm_graefe_zu_baringdorf president agriculture_rural_development_commission_european_parliament
+graefe_zu_baringdorf bluntly people europe think moment : hoof mouth disease epizootic coup de grace 1962 version cap 1962 year cap establish
+primacy market german green aged 58 origin bse bovine spongiform encephalopathy hoof mouth disease lie productivism cap
+european industrial mode production affect graefe zu baringdorf mep member european parliament farmer westphalia
+graefe_zu_baringdorf british curse fact bse hoof mouth disease hit country full force
+united_kingdom choose destiny show europe run agriculture
+primacy market lead state abdicate power
+case uk administration show vigilance late act graefe_zu_baringdorf
+case bse continue export contaminate animal feed continent 1996
+case hoof mouth disease allow animal affect disease export
+speak european_parliament yesterday european commissioner health david_byrne confirm import contaminated sheep 16_february origin disease france
+president european_parliament_'s_agriculture_commission re-nationalization agricultural policy change trade necessity european country unable aspire sufficiency food
+addition re-nationalization adapt response : vigilance public authority exist state graefe_zu_baringdorf
+case lack
+clear pursuit profit cost day
+farewell idea market rule graefe_zu_baringdorf
+green think cap re-orientate extensive agriculture respectful environment health attentive quality
+european_commission wavelength germany_italy coincidence country appoint ecologist_agriculture_minister
+france architect current cap start move : french president jacques_chirac show resistance depth reform
+chirac give reminder reform cap agenda
+president forget productivist pro-market choice european agriculture agriculture_minister_president pompidou
+franco german initiative reform move stress graefe_zu_baringdorf
+health_controls high quality agriculture bring free_market question
+health control re-thought
+european system inadequate : normal france unable check uk foodstuff free movement goods graefe_zu_baringdorf
+danger trust check export country influence economic consideration
+graefe_zu_baringdorf institute control import country orientate health consumer
+emergency similarly trace shipment agricultural product
+vigilance exist peace time graefe_zu_baringdorf
+people feel administration event crisis
+case embargo decide matter urgency
+states permanent state emergency
+"
+
+
+Document Print Ends
+
+
+
+Document print begins:
+
+
+impact hoof mouth_epidemic_franco german relations view outbreak hoof mouth disease france create strange backdrop meeting french_german foreign agriculture_minister paris evening tuesday_13_march resolve dispute european agriculture policy exist country berlin summit march_1999
+crisis help restore level head approach acknowledge harsh language month cost crisis point rapprochement diplomatic source feel dinner quai d'orsay foreign ministry convergence stronger expect
+discussion continue identify problem challenge meet order build quality agriculture account imperative food safety term freedom movement permit berlin agreement
+unusual meeting bring lionel_jospin 's minister hubert_vedrine_jean_glavany lead german green representative schroeder team joschka_fischer_renate_kuenst set framework capital current effort restore uneasy relation resolve topic friction
+meeting january crisis spark nice summit
+president chirac prime_minister_chancellor schroeder meeting herxheim 20_march order review exploratory work entrust foreign_minister
+crisis experience stock farming real challenge eu 's cohesion revive suspicion
+confront scale repercussion rural fabric france want aid germany reject rationale endless subsidy
+outbreak hoof mouth disease exacerbate climate government oblige step precautionary measure
+confine virus side channel_france turn quarantine
+german laender announce destruction animal arrive week french area risk urge citizen limit travel france
+realization subhead paradoxically case mad cow 's disease germany fall create favorable situation dialogue
+task january reappraise germany 's agricultural policy agriculture_minister promptly call radial change
+quality mass production watchword reaffirm weekend german green congress_stuttgart
+turnabout cause anxiety profession france reflect realization germany farming matter farmer urban society extend complex range factor
+france 's socialist government work accession power promote agriculture respectful environment offer farmer land contract ready germans word
+easy french agriculture_minister point interview publish les_echos 8_march germany oppose modification aid quality agriculture hitherto opportunity open direction berlin agreement
+anticipate german green congress argue farmer reach contract society move produce produce
+time review cap 2003 issue strong political signal show learn lesson crisis receive message public
+
+
+Document Print Ends
+
+
+
+Document print begins:
+
+
+alif ba hoof mouth disease iraq baghdad alif ba arabic 3_march publish page 20_21 report rajihah_abbud spread hoof mouth disease livestock iraq breeder report death result epidemic -- -- due scarcity rainfall short supply drug vaccine iraqi state veterinary organization
+writer interview dr. fadil_abbas director_general state veterinary_organization : organization 's main job preventive treatment
+big shortage drug vaccine due obstruction sanctions_committee 661 consider drug vaccine dual usage
+late arrival drug vaccine consignment contribute disaster lead loss 65,000 livestock sheep
+happen time iraq scientific laboratory region production vaccine hoof mouth disease destroy inspection team
+abbud distribute drug memorandum understanding
+abbas distribution depend density livestock sudden appearance disease area
+abbud implement preventive treatment
+abbas produce drug need
+longer case
+laboratories close due outdated equipment lack raw material
+carry preventive treatment set clinic remote area
+scarcity rainfall lead malnutrition widespread hoof mouth disease
+drop
+abbud depend private pharmaceutical factory drug vaccine import ; cheat import
+abbas control product factory standard quality control section
+recommend import licens
+hardship import raw material continue
+conclude writer : conclude tour visit al_kindi_company_industry_ministry establish 1990 production veterinary drug vaccine
+act general_manager dr. munaf_husayn company produce drug vaccine due aggression
+dr. husayn : company find difficult produce vaccine due shortage raw material
+inspection team interfere work
+company hit time building destroy
+
+
+Document Print Ends
+
+
+
+Document print begins:
+
+
+france 's glavany cite bse hoof mouth measures le figaro latest afssa_french_food_health_safety_agency finding suspect area mayenne prove contaminated hoof mouth disease
+france extricate crisis
+glavany
+confidence increase pass day early proclaim victory
+phenomenon bring control uk : authority pursue intensively
+outbreak daily -- doorstep -- great risk ; wind thousand tourist truck cross channel day bring virus
+le_figaro battle win risk direct contamination sheep import uk 1 21_february
+glavany
+ask europe lighten restrictive measure impose basis provision france adopt
+precaution slaughter 40,000 british sheep sheep contact british sheep introduce safety boundary
+france decide hit hard fast
+feel reassured neighbor thee
+le_figaro
+glavany monitor british import
+lesson crisis pass europe progress regard traceability sheep
+british supply sheep critical period
+talk protective preventive slaughter measure expect netherlands
+le_figaro_europe kind france
+glavany european institution function
+eu hastiness confuse mercenary consideration precaution principle
+compare neighbor true knee : foremost agricultural animal farming power france evidently excuse weakness ... le figaro francois d'aubert deputy mayenne appeal european_court_justice consider embargo orne mayenne illegal
+opinion
+glavany encourage francois_d'aubert attack european decision
+europe criticize job
+country want subject blockade affect territory
+succeed confine department serve health shield
+view sacrifice demand enjoy nation 's support
+le_figaro measure adopt limit spread illness french people remain skeptical consumption lamb fall 30_percent month ... glavany critical illness dangerous human being
+message drive home health_minister bernard_kouchner clear
+animal health problem public health problem
+reason drop consumption
+true succession crisis bse hoof mouth disease cause reflex response public
+picture slaughter house pyre show television month play frightening role explain rejection
+abandon disastrous psychosis domino effect : tell reservation rural holiday camp mayenne cancel
+le_figaro main victim farmer
+understand distress
+glavany sector society experience experience question purpose future
+tether
+financial moral support
+suffer effect crisis
+consumption fall 50_percent_export_980_percent
+case hood mouth disease brave resolutely pursue measure adopt
+lift
+case bse accelerate increase economic support sector
+worried country europe implement program purchase destruction cattle 30_month decide 2_january
+considerable surplus
+hundred_thousand head cattle slaughter europe include young heifer order restore balance supply demand
+country north oppose
+crisis drag month_month
+le_figaro cling rationale agricultural economy drip
+cap common agricultural policy call question
+glavany admit industry 's economic dependency hard accept public farmer
+envisage non-subsidized european policy reduce number farmer 680,000_150,000 repercussion land management balance society
+subsidy badly allocate cap reorient
+separate debate topical time crisis
+
+
+Document Print Ends
+
+
+
+Folder Printing Ends!!
+
+
