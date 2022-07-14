@@ -133,24 +133,26 @@ public class PreProcess extends inputIO{
     }
 
     // public static void doPreProcessing() throws Exception{
-    public static List<FolderData> doPreProcessing() throws Exception{
+    public static Dataset doPreProcessing() throws Exception{
         if (stopWords.size() == 0) initialize();
-        List<Document> documents = new ArrayList<>();
-        List<FolderData> folders = new ArrayList<>();
+        Dataset dataset = new Dataset();
         FolderData folder;
+        Document doc;
+        DocumentData docData;
+
         for (String folderName : inputFolders){
             List<File> files = Files.walk(Paths.get(folderName)).filter(Files::isRegularFile).map(Path::toFile).collect(Collectors.toList());
             List<String> fileNames = Files.walk(Paths.get(folderName)).filter(Files::isRegularFile).map(Path::toAbsolutePath).map(Object::toString).collect(Collectors.toList());
             folder = new FolderData();
             for (String fileName : fileNames){
                 System.out.println("fileName: " + fileName);
-                documents.add(new Document(readFile(fileName)));
-                folder.addDocument(new DocumentData(preProcessDocument(documents.get(documents.size() - 1))));
-                // break;
+                doc = new Document(readFile(fileName));
+                docData = new DocumentData(preProcessDocument(doc));
+                folder.addDocument(docData);
             }
-            // break;
-            folders.add(folder);
+            dataset.addFolder(folder);
         }
-        return folders;
+        dataset.doTermDocumentFrequencyEvaluation();
+        return dataset;
     }
 }

@@ -5,31 +5,42 @@ import java.util.*;
 
 public class FolderData{
 
-    public List<Document> documents;
-    public List<DocumentData> documentDatas;
-    public void addDocument(Document doc){
-        this.documents.add(doc);
-    }
+    public List<DocumentData> documents;
+    public Map<String, Integer> termDocumentFrequency;
 
     public void addDocument(DocumentData doc){
-        this.documentDatas.add(doc);
+        this.documents.add(doc);
     }
 
     public FolderData(){
         this.documents = new ArrayList<>();
-        this.documentDatas = new ArrayList<>();
+        this.termDocumentFrequency = new HashMap<String, Integer>();
+    }
+    
+    public void doTermDocumentFrequencyEvaluation(){
+        for (DocumentData doc : this.documents){
+            for (String word : doc.termCounts.keySet()){
+                this.termDocumentFrequency.put(word, 0);
+            }
+            // for(Sentence sent : doc.sentences){
+            //     for (String word : sent.words()){
+            //         this.termDocumentFrequency.put(word, 0);
+            //     }
+            // }
+        }
+
+        for (String word : this.termDocumentFrequency.keySet()){
+            for (DocumentData doc : this.documents){
+                if (doc.termCounts.containsKey(word))
+                    this.termDocumentFrequency.put(word, this.termDocumentFrequency.get(word) + 1);
+            }
+        }
     }
 
     public void printFolder(){
         System.out.println("\nFolder Printing Beginning:\n");
-        if (this.documentDatas.size() > 0){
-            for (DocumentData doc : this.documentDatas)
-                doc.printDocument();
-        }
-        else{
-            for (Document doc : this.documents)
-                PreProcess.printDocument(doc);
-        }
+        for (DocumentData doc : this.documents)
+            doc.printDocument();
         System.out.println("\nFolder Printing Ends!!\n\n");
     }
 
