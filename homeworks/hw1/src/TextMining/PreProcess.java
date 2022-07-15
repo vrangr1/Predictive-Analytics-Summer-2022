@@ -28,8 +28,6 @@ public class PreProcess{
         List<String> words = sent.words();
         // TODO: Stop Words removal being done by iterating through the entire stop words list to find whether the current word is a stop word or not. Optimize by using hashmaps or tries.
         List<String> newWords = new ArrayList<>();
-        // System.out.println("words count: " + words.size());
-        // System.out.println(sent + "\n\n");
         for (String word : words){
             boolean found = false;
             for (String stopWord : constants.stopWords){
@@ -90,14 +88,12 @@ public class PreProcess{
 
         Stack<Integer> delIndices = new Stack<Integer>();
 
-        // Stop Words Removal:
         for (int i = 0; i < n; ++i){
             Sentence sent = stopWordsRemoval(sentences.get(i));
             if (sent != null) sentences.set(i, sent);
             else delIndices.push(i);
         }
 
-        // Remove Null Sentences:
         while(!delIndices.empty())
             sentences.remove((Integer)delIndices.pop());
         
@@ -106,9 +102,6 @@ public class PreProcess{
             printSentences(sentences);
         }
         
-        // TODO: Do the same delIndices thing for the next 3 steps:
-
-        // Tokenization and Lemmatization;
         for (int i = 0; i < n; ++i) 
             if (sentences.get(i) != null) sentences.set(i, new Sentence(sentences.get(i).lemmas()));
         
@@ -117,7 +110,6 @@ public class PreProcess{
             printSentences(sentences);
         }
 
-        // Named Entity Recognition
         for (int i = 0; i < n; ++i)
             sentences.set(i, doNER(sentences.get(i)));
         // sentences.set(i, new Sentence(sentences.get(i).nerTags()));
@@ -126,9 +118,6 @@ public class PreProcess{
             System.out.println("After NERTags Generation");
             printSentences(sentences);
         }
-        
-        // TODO: Step 4: Sliding Window approach to group common 2/3 grams
-
         return sentences;
     }
 

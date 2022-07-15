@@ -2,7 +2,6 @@ package TextMining;
 import java.util.*;
 import java.io.*;
 
-// TODO: Move all this data to a data.txt file!
 public class constants{
     // nothing;
     // public static final String[] inputFiles = {"/home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C1/article01.txt"};
