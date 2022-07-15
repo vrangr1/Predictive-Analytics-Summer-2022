@@ -6,14 +6,19 @@ import java.util.*;
 public class FolderData{
 
     public List<DocumentData> documents;
+    public int folderBaseIndex, folderIndex;
     public Map<String, Integer> termDocumentFrequency;
 
     public void addDocument(DocumentData doc){
+        doc.documentIndex = this.folderBaseIndex + this.documents.size();
+        doc.folderIndex = this.folderIndex;
         this.documents.add(doc);
     }
 
-    public FolderData(){
+    public FolderData(int baseIndex, int folderIndex){
         this.documents = new ArrayList<>();
+        this.folderBaseIndex = baseIndex;
+        this.folderIndex = folderIndex;
         this.termDocumentFrequency = new HashMap<String, Integer>();
     }
     
@@ -47,7 +52,7 @@ public class FolderData{
     public static void printFolders(List<FolderData> folders){
         for (FolderData folder : folders){
             folder.printFolder();
-            break;
+            // break;
         }
     }
 }

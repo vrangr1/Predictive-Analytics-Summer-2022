@@ -6,9 +6,9 @@ import java.nio.file.*;
 import java.io.File;
 import java.util.stream.Collectors;
 
-public class PreProcess extends inputIO{
+public class PreProcess{
 
-    public static final boolean debug_mode = false;
+    public static boolean debug_mode = TextMiner.debugMode;
 
     public static void printDocument(Document doc){
         System.out.println("\nDocument Starts here:\n\n");
@@ -32,7 +32,7 @@ public class PreProcess extends inputIO{
         // System.out.println(sent + "\n\n");
         for (String word : words){
             boolean found = false;
-            for (String stopWord : stopWords){
+            for (String stopWord : constants.stopWords){
                 if (word.toLowerCase().equals(stopWord)) found = true;
                 if (found) break;
             }
@@ -134,21 +134,24 @@ public class PreProcess extends inputIO{
 
     // public static void doPreProcessing() throws Exception{
     public static Dataset doPreProcessing() throws Exception{
-        if (stopWords.size() == 0) initialize();
+        if (constants.stopWords.size() == 0) constants.initialize();
         Dataset dataset = new Dataset();
         FolderData folder;
         Document doc;
         DocumentData docData;
+        int index = 0, fInd = 0;
 
-        for (String folderName : inputFolders){
+        for (String folderName : constants.inputFolders){
             List<File> files = Files.walk(Paths.get(folderName)).filter(Files::isRegularFile).map(Path::toFile).collect(Collectors.toList());
             List<String> fileNames = Files.walk(Paths.get(folderName)).filter(Files::isRegularFile).map(Path::toAbsolutePath).map(Object::toString).collect(Collectors.toList());
-            folder = new FolderData();
+            folder = new FolderData(index, fInd);
+            fInd += 1;
             for (String fileName : fileNames){
                 System.out.println("fileName: " + fileName);
-                doc = new Document(readFile(fileName));
+                doc = new Document(inputIO.readFile(fileName));
                 docData = new DocumentData(preProcessDocument(doc));
                 folder.addDocument(docData);
+                index += 1;
             }
             dataset.addFolder(folder);
         }

@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class inputIO extends constants{
+public class inputIO{
     public static String readFile(String fileName) throws Exception{
         File file = new File(fileName);
         String ans;
