@@ -6,7 +6,7 @@ import java.io.*;
 public class constants{
     // nothing;
     // public static final String[] inputFiles = {"/home/anavp/Anav/Acads/NYU/Summer 2022/Predictive-Analytics-Summer-2022/homeworks/hw1/dataset_3/data/C1/article01.txt"};
-    public static final String dataFile = "data.txt";
+    public static final String dataFile = "data.txt", topicsFile = "topics.txt";
     public static String stopWordsFile;
     public static List<String> inputFolders;
     // public static String[] inputFolders = {

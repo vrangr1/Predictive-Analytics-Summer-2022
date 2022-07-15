@@ -40,6 +40,6 @@ public class TextMiner{
         int[] docClasses = kMeans.doKMeans(tfidfMatrix, 3, kMeans.METRIC.COSINE);
         printVector(docClasses);
 
-        DocumentData.printDocuments(dataset.documents);
+        // DocumentData.printDocuments(dataset.documents);
     }
 }
