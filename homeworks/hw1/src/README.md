@@ -10,6 +10,9 @@ Ensuing lines list out the folders of the datasets to be used.
 
 Output is printed in ```topics.txt``` text file.
 
+The code can be run by the following command:  
+```java TextMining.TextMiner```
+
 ## Testing
 Note that testing was done on on a linux based system (ubuntu) with Java version as follows:
 ```

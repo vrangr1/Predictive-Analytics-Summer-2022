@@ -41,6 +41,5 @@ public class TextMiner{
         printVector(docClasses);
 
         Evaluator.generateConfusionMatrix(dataset, docClasses);
-        // DocumentData.printDocuments(dataset.documents);
     }
 }
