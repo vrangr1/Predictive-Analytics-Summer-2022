@@ -13,8 +13,51 @@ public class kMeans{
     private static int documentCount, totalWords, k, iterations;
     private static METRIC chosenMetric;
     private static final int ITERATION_LIMIT = 1000;
+    private static final boolean doKMeansPlusPlus = true;
 
-    private static double[][] initializeCentroids(){
+
+    private static void copyOver(double[] dest, double[] og){
+        for (int i = dest.length - 1; i >= 0; --i) dest[i] = og[i];
+    }
+
+    private static double[][] initializeCentroidsByKMeansPlusPlus(double[][] tfidfMatrix){
+        double[][] centroids = new double[k][totalWords];
+        Random rd = new Random();
+        int last = rd.nextInt(documentCount);
+        copyOver(centroids[0], tfidfMatrix[last]);
+        double maxDist, tempDist = 0, guess;
+        int newInd;
+        for (int i = 1; i < k; ++i){
+            newInd = 0;
+            maxDist = computeDistance(centroids[i-1], tfidfMatrix[0]);
+            for (int j = 1; j < documentCount; ++j){
+                tempDist = computeDistance(centroids[i-1], tfidfMatrix[j]);
+                if (tempDist > maxDist)
+                    maxDist = tempDist;
+            }
+            guess = rd.nextInt((int)maxDist);
+            for (int j = 0; j < documentCount; ++j){
+                tempDist = computeDistance(centroids[i-1], tfidfMatrix[j]);
+                if (tempDist > guess) continue;
+                newInd = j;
+                break;
+            }
+            maxDist = tempDist;
+            for (int j = newInd + 1; j < documentCount; ++j){
+                tempDist = computeDistance(centroids[i-1], tfidfMatrix[j]);
+                if (tempDist > guess) continue;
+                if (tempDist > maxDist){
+                    maxDist = tempDist;
+                    newInd = j;
+                }
+            }
+            copyOver(centroids[i], tfidfMatrix[newInd]);
+        }
+        return centroids;
+    }
+
+    private static double[][] initializeCentroids(double[][] tfidfMatrix){
+        if (doKMeansPlusPlus) return initializeCentroidsByKMeansPlusPlus(tfidfMatrix);
         double[][] centroids = new double[k][totalWords];
         Random rd = new Random();
         for (int i = 0; i < k; ++i)
@@ -93,6 +136,10 @@ public class kMeans{
         for (int i = vec.length - 1; i >= 0; --i) vec[i] = 0;
     }
 
+    public static void resetZero(int[] vec){
+        for (int i = vec.length - 1; i >= 0; --i) vec[i] = 0;
+    }
+
     public static void addVec(double[] dest, double[] add){
         for (int i = dest.length - 1; i >= 0; --i) dest[i] += add[i];
     }
@@ -120,7 +167,7 @@ public class kMeans{
         iterations = 0;
         int[] docClasses = new int[documentCount];
         
-        double[][] centroids = initializeCentroids();
+        double[][] centroids = initializeCentroids(tfidfMatrix);
         
         for (int i = 0; i < documentCount; ++i) docClasses[i] = i%k;
         

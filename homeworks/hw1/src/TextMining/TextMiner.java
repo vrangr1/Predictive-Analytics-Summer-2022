@@ -40,6 +40,7 @@ public class TextMiner{
         int[] docClasses = kMeans.doKMeans(tfidfMatrix, 3, kMeans.METRIC.COSINE);
         printVector(docClasses);
 
+        Evaluator.generateConfusionMatrix(dataset, docClasses);
         // DocumentData.printDocuments(dataset.documents);
     }
 }

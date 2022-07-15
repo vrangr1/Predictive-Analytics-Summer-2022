@@ -62,10 +62,8 @@ public class keywordGen{
     }
 
     private static void printKeywords(String[] keywords, int index) throws Exception{
-        // Path filePath = Path.of("demo.txt");
         File file = new File(constants.topicsFile);
-        // String content  = "hello world !!";
-
+        
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, appendToFile))) 
         {
             writer.write("Keywords for folder: " + index + ": \n");
