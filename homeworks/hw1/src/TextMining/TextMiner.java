@@ -1,7 +1,5 @@
 package TextMining;
 
-import java.util.*;
-
 
 public class TextMiner{
     public static final boolean debugMode = false;

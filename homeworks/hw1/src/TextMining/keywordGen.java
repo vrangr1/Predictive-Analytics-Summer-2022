@@ -1,25 +1,7 @@
 package TextMining;
 
 import java.util.*;
-import edu.stanford.nlp.simple.*;
-import java.nio.file.*;
 import java.io.*;
-import java.util.stream.Collectors;
-// import org.apache.commons.io.FilenameUtils;
-// class Pair implements Comparable<Pair> {
-//     public final int index;
-//     public final double value;
-
-//     public Pair(int index, double value) {
-//         this.index = index;
-//         this.value = value;
-//     }
-
-//     @Override
-//     public int compareTo(Pair other) {
-//         return Integer.valueOf(this.value).compareTo(other.value);
-//     }
-// }
 
 public class keywordGen{
     private static boolean appendToFile;
@@ -88,12 +70,6 @@ public class keywordGen{
             String[] keywords = getKeywords(vec);
 
             printKeywords(keywords, index);
-            // System.out.println("Keywords for folder " + index + ":");
-            // for (int i = 0; i < keywords.length; ++i){
-            //     System.out.print(keywords[i]);
-            //     if (i < keywords.length - 1) System.out.print(", ");
-            // }
-            // System.out.println("\n");
             index += 1;
         }
     }

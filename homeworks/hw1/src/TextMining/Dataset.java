@@ -1,6 +1,5 @@
 package TextMining;
 
-import edu.stanford.nlp.simple.*;
 import java.util.*;
 
 public class Dataset{
@@ -40,8 +39,6 @@ public class Dataset{
 
     public void addFolder(FolderData folder){
         folder.doTermDocumentFrequencyEvaluation();
-        // if (TextMiner.debugMode)
-        // System.out.println("Adding folder!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
         this.folders.add(folder);
         this.documentCount += folder.documents.size();
         for (DocumentData doc : folder.documents){

@@ -21,6 +21,10 @@ public class Classifier{
         if (debugMode) dataset.printDataset();
         TFIDF.initialize(dataset);
         double[][] tfidfMatrix = TFIDF.doTFIDF(dataset);
+        System.out.print("Height of TFIDF Mat: ");
+        System.out.println(tfidfMatrix.length);
+        System.out.print("Breadth of TFIDF Mat: ");
+        System.out.println(tfidfMatrix[0].length);
         if (debugMode)
         printMatrix(tfidfMatrix, dataset.documentCount, TFIDF.totalWords);
     }

@@ -1,7 +1,6 @@
 package TextMining;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class inputIO{
@@ -11,9 +10,7 @@ public class inputIO{
         Scanner sc = new Scanner(file);
         sc.useDelimiter("\\Z");
         ans = sc.next();
-        // System.out.println(ans);
+        sc.close();
         return ans;
     }
-
-    // public static void writeToTopics()
 }

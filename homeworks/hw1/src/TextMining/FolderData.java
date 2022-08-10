@@ -1,6 +1,5 @@
 package TextMining;
 
-import edu.stanford.nlp.simple.*;
 import java.util.*;
 
 public class FolderData{
@@ -27,11 +26,6 @@ public class FolderData{
             for (String word : doc.termCounts.keySet()){
                 this.termDocumentFrequency.put(word, 0);
             }
-            // for(Sentence sent : doc.sentences){
-            //     for (String word : sent.words()){
-            //         this.termDocumentFrequency.put(word, 0);
-            //     }
-            // }
         }
 
         for (String word : this.termDocumentFrequency.keySet()){

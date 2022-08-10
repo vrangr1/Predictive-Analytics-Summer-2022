@@ -1,9 +1,6 @@
 package TextMining;
 
-import java.util.*;
-import java.nio.file.*;
 import java.io.*;
-import java.util.stream.Collectors;
 
 public class Evaluator{
     private static void writeToFile(int[] truePositives, int[] falsePositives, int[] trueNegatives, int[] falseNegatives) throws Exception{

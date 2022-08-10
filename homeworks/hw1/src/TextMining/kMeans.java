@@ -1,6 +1,5 @@
 package TextMining;
 
-import edu.stanford.nlp.simple.*;
 import java.util.*;
 import java.lang.Math;
 

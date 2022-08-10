@@ -3,7 +3,6 @@ package TextMining;
 import edu.stanford.nlp.simple.*;
 import java.util.*;
 import java.nio.file.*;
-import java.io.File;
 import java.util.stream.Collectors;
 
 public class PreProcess{
@@ -95,7 +94,7 @@ public class PreProcess{
         }
 
         while(!delIndices.empty())
-            sentences.remove((Integer)delIndices.pop());
+            sentences.remove((int)delIndices.pop());
         
         if (debug_mode){
             System.out.println("Stop Words Removed!!!");
@@ -121,7 +120,6 @@ public class PreProcess{
         return sentences;
     }
 
-    // public static void doPreProcessing() throws Exception{
     public static Dataset doPreProcessing() throws Exception{
         if (constants.stopWords.size() == 0) constants.initialize();
         Dataset dataset = new Dataset();
@@ -131,7 +129,6 @@ public class PreProcess{
         int index = 0, fInd = 0;
 
         for (String folderName : constants.inputFolders){
-            List<File> files = Files.walk(Paths.get(folderName)).filter(Files::isRegularFile).map(Path::toFile).collect(Collectors.toList());
             List<String> fileNames = Files.walk(Paths.get(folderName)).filter(Files::isRegularFile).map(Path::toAbsolutePath).map(Object::toString).collect(Collectors.toList());
             folder = new FolderData(index, fInd);
             fInd += 1;
