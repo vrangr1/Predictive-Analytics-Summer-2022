@@ -93,8 +93,10 @@ public class PreProcess{
             else delIndices.push(i);
         }
 
-        while(!delIndices.empty())
+        while(!delIndices.empty()){
             sentences.remove((int)delIndices.pop());
+            n -= 1;
+        }
         
         if (debug_mode){
             System.out.println("Stop Words Removed!!!");
