@@ -8,6 +8,8 @@ public class Dataset{
     public int documentCount;
     public Map<String, Integer> termDocumentFrequency;
 
+    public TFIDF tfidfObject;
+
     public Dataset(){
         this.folders = new ArrayList<>();
         this.documentCount = 0;

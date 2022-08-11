@@ -20,6 +20,13 @@ public class FolderData{
         this.folderIndex = folderIndex;
         this.termDocumentFrequency = new HashMap<String, Integer>();
     }
+
+    public FolderData(){
+        this.documents = new ArrayList<>();
+        this.folderBaseIndex = Integer.MAX_VALUE;
+        this.folderIndex = Integer.MAX_VALUE;
+        this.termDocumentFrequency = new HashMap<String, Integer>();
+    }
     
     public void doTermDocumentFrequencyEvaluation(){
         for (DocumentData doc : this.documents){

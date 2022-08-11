@@ -1,0 +1,873 @@
+Keywords for folder: 0: 
+airline, ground, pilot, safety, police, tonga, civil, china, jet, eat, 
+
+Keywords for folder: 1: 
+disease, mouth, hoof, drug, vaccine, animal, return, greece, campaign, spread, 
+
+Keywords for folder: 2: 
+rate, mortgage, bank, mr., takenaka, loan, 5_percent, prodi, government, home, 
+
+
+k Value: 2
+Cluster Count: 3
+
+Confusion Matrix for folder: 0: 
+
+True Positives: 7
+True Negatives: 0
+False Positives: 0
+False Negatives: 1
+
+
+Confusion Matrix for folder: 1: 
+
+True Positives: 0
+True Negatives: 0
+False Positives: 0
+False Negatives: 8
+
+
+Confusion Matrix for folder: 2: 
+
+True Positives: 1
+True Negatives: 0
+False Positives: 0
+False Negatives: 7
+
+
+Precision: 1.0
+
+Recall: 0.3333333333333333
+
+F1Score: 0.5
+
+unknown01.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown02.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown03.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown04.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown05.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown06.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown07.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown08.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown09.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown10.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+Accuracy on test files = 0.5
+
+
+k Value: 3
+Cluster Count: 3
+
+Confusion Matrix for folder: 0: 
+
+True Positives: 7
+True Negatives: 0
+False Positives: 0
+False Negatives: 1
+
+
+Confusion Matrix for folder: 1: 
+
+True Positives: 0
+True Negatives: 0
+False Positives: 0
+False Negatives: 8
+
+
+Confusion Matrix for folder: 2: 
+
+True Positives: 1
+True Negatives: 0
+False Positives: 0
+False Negatives: 7
+
+
+Precision: 1.0
+
+Recall: 0.3333333333333333
+
+F1Score: 0.5
+
+unknown01.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown02.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown03.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown04.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown05.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown06.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown07.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown08.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown09.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown10.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+Accuracy on test files = 0.5
+
+
+k Value: 4
+Cluster Count: 3
+
+Confusion Matrix for folder: 0: 
+
+True Positives: 7
+True Negatives: 0
+False Positives: 0
+False Negatives: 1
+
+
+Confusion Matrix for folder: 1: 
+
+True Positives: 0
+True Negatives: 0
+False Positives: 0
+False Negatives: 8
+
+
+Confusion Matrix for folder: 2: 
+
+True Positives: 1
+True Negatives: 0
+False Positives: 0
+False Negatives: 7
+
+
+Precision: 1.0
+
+Recall: 0.3333333333333333
+
+F1Score: 0.5
+
+unknown01.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown02.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown03.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown04.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown05.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown06.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown07.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown08.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown09.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown10.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+Accuracy on test files = 0.5
+
+
+k Value: 5
+Cluster Count: 3
+
+Confusion Matrix for folder: 0: 
+
+True Positives: 7
+True Negatives: 0
+False Positives: 0
+False Negatives: 1
+
+
+Confusion Matrix for folder: 1: 
+
+True Positives: 0
+True Negatives: 0
+False Positives: 0
+False Negatives: 8
+
+
+Confusion Matrix for folder: 2: 
+
+True Positives: 1
+True Negatives: 0
+False Positives: 0
+False Negatives: 7
+
+
+Precision: 1.0
+
+Recall: 0.3333333333333333
+
+F1Score: 0.5
+
+unknown01.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown02.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown03.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown04.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown05.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown06.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown07.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown08.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown09.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown10.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+Accuracy on test files = 0.5
+
+
+k Value: 6
+Cluster Count: 3
+
+Confusion Matrix for folder: 0: 
+
+True Positives: 7
+True Negatives: 0
+False Positives: 0
+False Negatives: 1
+
+
+Confusion Matrix for folder: 1: 
+
+True Positives: 0
+True Negatives: 0
+False Positives: 0
+False Negatives: 8
+
+
+Confusion Matrix for folder: 2: 
+
+True Positives: 1
+True Negatives: 0
+False Positives: 0
+False Negatives: 7
+
+
+Precision: 1.0
+
+Recall: 0.3333333333333333
+
+F1Score: 0.5
+
+unknown01.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown02.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown03.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown04.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown05.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown06.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown07.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown08.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown09.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown10.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+Accuracy on test files = 0.5
+
+
+k Value: 7
+Cluster Count: 3
+
+Confusion Matrix for folder: 0: 
+
+True Positives: 7
+True Negatives: 0
+False Positives: 0
+False Negatives: 1
+
+
+Confusion Matrix for folder: 1: 
+
+True Positives: 0
+True Negatives: 0
+False Positives: 0
+False Negatives: 8
+
+
+Confusion Matrix for folder: 2: 
+
+True Positives: 1
+True Negatives: 0
+False Positives: 0
+False Negatives: 7
+
+
+Precision: 1.0
+
+Recall: 0.3333333333333333
+
+F1Score: 0.5
+
+unknown01.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown02.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown03.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown04.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown05.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown06.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown07.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown08.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown09.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown10.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+Accuracy on test files = 0.5
+
+
+k Value: 8
+Cluster Count: 3
+
+Confusion Matrix for folder: 0: 
+
+True Positives: 7
+True Negatives: 0
+False Positives: 0
+False Negatives: 1
+
+
+Confusion Matrix for folder: 1: 
+
+True Positives: 0
+True Negatives: 0
+False Positives: 0
+False Negatives: 8
+
+
+Confusion Matrix for folder: 2: 
+
+True Positives: 1
+True Negatives: 0
+False Positives: 0
+False Negatives: 7
+
+
+Precision: 1.0
+
+Recall: 0.3333333333333333
+
+F1Score: 0.5
+
+unknown01.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown02.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown03.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown04.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown05.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown06.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown07.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown08.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown09.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown10.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+Accuracy on test files = 0.5
+
+
+k Value: 9
+Cluster Count: 3
+
+Confusion Matrix for folder: 0: 
+
+True Positives: 7
+True Negatives: 0
+False Positives: 0
+False Negatives: 1
+
+
+Confusion Matrix for folder: 1: 
+
+True Positives: 0
+True Negatives: 0
+False Positives: 0
+False Negatives: 8
+
+
+Confusion Matrix for folder: 2: 
+
+True Positives: 1
+True Negatives: 0
+False Positives: 0
+False Negatives: 7
+
+
+Precision: 1.0
+
+Recall: 0.3333333333333333
+
+F1Score: 0.5
+
+unknown01.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown02.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown03.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown04.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown05.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown06.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown07.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown08.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown09.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown10.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+Accuracy on test files = 0.5
+
+
+k Value: 10
+Cluster Count: 3
+
+Confusion Matrix for folder: 0: 
+
+True Positives: 7
+True Negatives: 0
+False Positives: 0
+False Negatives: 1
+
+
+Confusion Matrix for folder: 1: 
+
+True Positives: 0
+True Negatives: 0
+False Positives: 0
+False Negatives: 8
+
+
+Confusion Matrix for folder: 2: 
+
+True Positives: 1
+True Negatives: 0
+False Positives: 0
+False Negatives: 7
+
+
+Precision: 1.0
+
+Recall: 0.3333333333333333
+
+F1Score: 0.5
+
+unknown01.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown02.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown03.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown04.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown05.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown06.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+unknown07.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown08.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 2
+
+unknown09.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 0
+
+unknown10.txt was clustered as follows:
+Cluster 0 percentage: 100.0
+Cluster 1 percentage: 0.0
+Cluster 2 percentage: 0.0
+Ground Truth: 1
+
+Accuracy on test files = 0.5
+

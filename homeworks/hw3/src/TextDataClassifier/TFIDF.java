@@ -6,10 +6,12 @@ import java.lang.Math;
 
 public class TFIDF{
 
-    public static Map<String, Integer> indices;
-    public static List<String> revIndices;
-    public static int totalWords;
-    public static void initialize(Dataset dataset){
+    public Map<String, Integer> indices;
+    public List<String> revIndices;
+    public int totalWords;
+    public List<DocumentData> reverseTFIDFMapping;
+
+    public TFIDF(Dataset dataset){
         indices = new HashMap<String, Integer> ();
         revIndices = new ArrayList<>();
         int index = 0;
@@ -19,9 +21,11 @@ public class TFIDF{
             index += 1;
         }
         totalWords = index;
+
+        reverseTFIDFMapping = new ArrayList<>();
     }
 
-    public static double[][] doTFIDF(Dataset dataset){
+    public double[][] doTFIDF(Dataset dataset){
         double[][] tfidfMatrix = new double[dataset.documentCount][totalWords];
         int index = 0, tempIndex;
         double idf;
@@ -34,6 +38,10 @@ public class TFIDF{
                     idf = Math.log(idf);
                     tfidfMatrix[index][tempIndex] *= idf;
                 }
+                doc.tfidfIndex = index;
+                reverseTFIDFMapping.add(doc);
+                doc.tfidfVector = tfidfMatrix[index];
+                doc.groundTruth = doc.folderIndex;
                 index += 1;
             }
         }

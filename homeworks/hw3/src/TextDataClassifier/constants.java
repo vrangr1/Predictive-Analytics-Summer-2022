@@ -4,8 +4,10 @@ import java.util.*;
 import java.io.*;
 
 public class constants{
-    public static final String dataFile = "data.txt", topicsFile = "topics.txt";
+    public static final String dataFile = "data.txt", topicsFile = "output.txt";
+    public static String testFilesGroundTruth;
     public static String stopWordsFile;
+    public static String unknownFolderPath;
     public static List<String> inputFolders;
     public static List<String> stopWords = new ArrayList<>();
 
@@ -13,12 +15,24 @@ public class constants{
         File file = new File(dataFile);
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String temp;
-        boolean first = true;
+        boolean first = true, second = false, third = false;
         inputFolders = new ArrayList<>();
         while((temp = reader.readLine()) != null){
             if (first){
                 first = false;
                 stopWordsFile = temp.replace("\n","");
+                second = true;
+                continue;
+            }
+            if (second){
+                second = false;
+                testFilesGroundTruth = temp.replace("\n","");
+                third = true;
+                continue;
+            }
+            if (third){
+                third = false;
+                unknownFolderPath = temp.replace("\n", "");
                 continue;
             }
             inputFolders.add(temp.replace("\n",""));

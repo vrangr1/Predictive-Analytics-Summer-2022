@@ -1,18 +1,11 @@
 package TextDataClassifier;
 
-import java.io.File;
-import java.util.Scanner;
+import java.nio.file.*;
 
 public class inputIO{
     public static String readFile(String fileName) throws Exception{
-        File file = new File(fileName);
-        String ans;
-        Scanner sc = new Scanner(file);
-        sc.useDelimiter("\\Z");
-        ans = sc.next();
-        sc.close();
-        return ans;
+        String data = "";
+        data = new String(Files.readAllBytes(Paths.get(fileName)));
+        return data;
     }
-
-    // public static void writeToTopics()
 }

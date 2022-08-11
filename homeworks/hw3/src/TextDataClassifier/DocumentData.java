@@ -9,6 +9,10 @@ public class DocumentData{
     public Map<String, Integer> termCounts;
     public int totalTerms, documentIndex, folderIndex;
 
+    public int groundTruth, generatedLabel, tfidfIndex;
+    public double[] tfidfVector;
+    public double[] fuzzykNNResults;
+
     private void initializeMap(){
         for (Sentence sent : this.sentences)
             for (String word : sent.words()){
